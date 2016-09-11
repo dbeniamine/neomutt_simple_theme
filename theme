@@ -76,6 +76,7 @@ color hdrdefault color246 default
 color header color40 default "^(From)"
 color header color40 default "^(Subject)"
 color header color249 default "^(X-)"
+color header color249 default "^(User-Agent)"
 
 # body {{{2 -----------------------------------------------------------------
 
@@ -85,7 +86,7 @@ color quoted2 color136 default
 color quoted3 color70 default
 color quoted4 color130 default
 
-color signature color34 default
+color signature color249 default
 #color bold color235 default
 #color underline color235 default
 
