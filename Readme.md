@@ -1,9 +1,30 @@
-This is a color theme for neomutt with sidebar and 256color terminals.
-To use it, just add:
+This is a color theme for mutt on 256color terminals.
+Thos themes also includes color for sidebar (mutt and neomutt)
 
-    source /path/to/the/theme
+# Install
 
-in your muttrc
+## Quick Install
+
+In your muttrc, ource the auto_theme.sh file, it will source all the required
+files depending on your version:
+
+    source "/path/to/auto_theme.sh |"
+
+Do not forget the `|` at the end
+
+This script also sets a variable `my_version` that ca be usefull to make your
+muttrc more portable.
+
+## Manual install
+
+You can also manually decide to source individually the files:
+
+    # Main color them
+    source "/path/to/theme"
+    # If you use sidebar
+    source "/path/to/sidebar"
+    # If you use neomutt+sidebar
+    source "/path/to/neomutt-sidebar"
 
 # Color chart
 
